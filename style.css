@@ -1,0 +1,166 @@
+
+*{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+    #deletebtn{
+            padding: 10px;
+            margin: 10px;
+    }
+    body{
+     
+      background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+    linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+    linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+    radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+    radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+  background-blend-mode: screen, color-dodge, overlay, difference, normal;
+
+  background-repeat: no-repeat;
+
+    }
+    .container{
+      height: 80vh;
+      width: 85vw;
+      margin-top: 100px;
+      margin-bottom: 85px;
+      border-radius: 7px;
+      padding: 70px;
+      background-color: rgb(255, 255, 255);
+      margin-left: 100px;
+      overflow: auto;
+    
+    }
+
+    input{
+      width: 80%;
+      height: 50px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid;
+      cursor: pointer;
+    }
+
+    input:hover {
+      
+    }
+
+    #create {
+      width: 75px;
+      height: 50px;
+      margin: 5px;
+      background-color: #1bbcf2;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+      font-family: 'Patua One', cursive;
+
+    }
+
+    #create:hover {
+      background-color: #2ea7cf;
+    }
+    #create:active{
+      background-color: #1d7c9c;
+        }
+
+    #deletebtn{
+      display: flex;
+      width: 70px;
+      height: 50px; 
+      padding-top: 10px;
+      margin-top: 20px;
+      background-color: #e02b31;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+      font-family: 'Patua One', cursive;
+      text-align: center;
+      font-size: large; 
+      margin-right: 20px;
+    }
+    #deletebtn:hover{
+      opacity: 0.7;
+
+    }
+
+    #deletebtn:active{
+      background-color: #75949e;
+    }
+
+    li{
+      width: 100%;
+      display: flex;
+      list-style: none;
+      background-color: rgb(255, 244, 244);
+      justify-content: space-between;
+      text-align: center;
+      font-family: 'Source Serif Pro', serif;
+      margin-top: 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      overflow:auto;
+    }
+
+    .backDone{
+        width: 100%;
+        display: flex;
+        list-style: none;
+        background-color: rgb(174, 22, 22);
+        justify-content: space-between;
+        text-align: center;
+        font-family: 'Source Serif Pro', serif;
+        margin-top: 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        opacity: 0.7 ;
+
+
+    }
+    .list{
+      background-color: #D6DBDF;
+    }
+
+    p{
+      padding: 10px;
+      margin: 13px;
+      font-size: 2.5rem;
+    }
+
+    #delete {
+      width: 75px;
+      height: 50px;
+      background-color: #e02b31;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+      text-align: center;
+      font-family: 'Patua One', cursive;
+     
+    }
+
+    #delete:hover {
+      background-color: #bb0c12;
+    }
+
+    #delete:active {
+      background-color: #b00e14;
+    }
+
+
+    
+
+    .done {
+        text-decoration: line-through;
+        opacity: 0.6;
+
+    }
+
+  .line-through {
+    text-decoration: line-through;
+  }
