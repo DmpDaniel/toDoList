@@ -5,23 +5,21 @@
         margin: 0;
       }
 
-    #deletebtn{
+#deletebtn{
             padding: 10px;
             margin: 10px;
-    }
-    body{
+}
+body{
      
-      background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+    background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
     linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
     linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
     radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
     radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
-  background-blend-mode: screen, color-dodge, overlay, difference, normal;
-
-  background-repeat: no-repeat;
-
-    }
-    .container{
+    background-blend-mode: screen, color-dodge, overlay, difference, normal;
+    background-repeat: no-repeat;
+}
+.container{
       height: 80vh;
       width: 85vw;
       margin-top: 100px;
@@ -31,23 +29,18 @@
       background-color: rgb(255, 255, 255);
       margin-left: 100px;
       overflow: auto;
-    
-    }
+}
 
-    input{
+input{
       width: 80%;
       height: 50px;
       padding: 10px;
       border-radius: 5px;
       border: 1px solid;
       cursor: pointer;
-    }
+}
 
-    input:hover {
-      
-    }
-
-    #create {
+#create {
       width: 75px;
       height: 50px;
       margin: 5px;
@@ -57,17 +50,15 @@
       color: white;
       cursor: pointer;
       font-family: 'Patua One', cursive;
+}
 
-    }
-
-    #create:hover {
+#create:hover {
       background-color: #2ea7cf;
-    }
-    #create:active{
+}
+#create:active{
       background-color: #1d7c9c;
-        }
-
-    #deletebtn{
+}
+#deletebtn{
       display: flex;
       width: 70px;
       height: 50px; 
@@ -82,17 +73,16 @@
       text-align: center;
       font-size: large; 
       margin-right: 20px;
-    }
+}
     #deletebtn:hover{
       opacity: 0.7;
+}
 
-    }
-
-    #deletebtn:active{
+#deletebtn:active{
       background-color: #75949e;
-    }
+}
 
-    li{
+li{
       width: 100%;
       display: flex;
       list-style: none;
@@ -106,7 +96,7 @@
       overflow:auto;
     }
 
-    .backDone{
+.backDone{
         width: 100%;
         display: flex;
         list-style: none;
@@ -118,20 +108,18 @@
         border-radius: 4px;
         cursor: pointer;
         opacity: 0.7 ;
-
-
-    }
-    .list{
+}
+.list{
       background-color: #D6DBDF;
-    }
+}
 
-    p{
+p{
       padding: 10px;
       margin: 13px;
       font-size: 2.5rem;
-    }
+}
 
-    #delete {
+#delete {
       width: 75px;
       height: 50px;
       background-color: #e02b31;
@@ -141,26 +129,19 @@
       cursor: pointer;
       text-align: center;
       font-family: 'Patua One', cursive;
-     
-    }
-
-    #delete:hover {
+}
+#delete:hover {
       background-color: #bb0c12;
-    }
+}
 
-    #delete:active {
+#delete:active {
       background-color: #b00e14;
-    }
+}
 
-
-    
-
-    .done {
+.done {
         text-decoration: line-through;
         opacity: 0.6;
-
-    }
-
+}
   .line-through {
     text-decoration: line-through;
   }
