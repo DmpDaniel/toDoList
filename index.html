@@ -10,6 +10,10 @@
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Patua+One&family=Source+Serif+Pro:ital@1&display=swap');
+    </style>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">  
@@ -34,9 +38,17 @@
   </div> -->
   
   <div class="container"><input type="text" id="input" placeholder="New Task...">
+    
     <button id="create">Add</button>
     <button id="delete">Delete all</button>
-    <ul id="listItem"></ul>
+
+
+    <div class="top-container">
+      <div class="all" id="all">ALL</div>
+      <div class="active" id="active">ACTIVE</div>
+      <div class="completed" id="completed">COMPLETED</div>
+      </div>
+      <ul id="listItem"></ul>
     </div>
     
    

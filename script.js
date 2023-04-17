@@ -4,6 +4,31 @@ let deleteAll = document.getElementById("delete")
 let list = document.getElementById("listItem")
 let selectAll = document.querySelectorAll("li")
 let numberOfList = 0
+let currentStatus;
+let all = document.getElementById("all")
+let active = document.getElementById("active")
+let completed = document.getElementById("completed")
+
+if(!currentStatus){
+  all.classList.add("current")
+}
+
+all.addEventListener("click", ()=>{
+  completed.classList.remove("current")
+  active.classList.remove("current")
+  all.classList.add("current")
+})
+active.addEventListener("click", ()=> {
+  all.classList.remove("current")
+  completed.classList.remove("current")
+  active.classList.add("current")
+})
+
+completed.addEventListener("click", ()=> {
+  all.classList.remove("current")
+  active.classList.remove("current")
+  completed.classList.add("current")
+})
 
 list.addEventListener("click", handleItemClick)
 
@@ -26,9 +51,12 @@ inputText.value = ""
 numberOfList ++
 let textToggle = text.firstChild;
 
-textToggle.addEventListener("click", () => {
+text.addEventListener("click", () => {
   textToggle.classList.toggle("done")
   textToggle.parentNode.classList.toggle("backDone")
+  let dele = text.childNodes[2]
+  console.log(dele)
+  dele.classList.add("deletebtn")
 })
 }
 }
@@ -51,6 +79,10 @@ deleteAll.addEventListener("click", () => {
 
 for(let i = selectAll.length -1; i>= 0; i--){
 
-    selectAll[i].parentNode.removeChild(k[i])
+    selectAll[i].parentNode.removeChild(selectAll[i])
 } 
 })
+
+document.addEventListener("click", (eventss) => {
+  console.log(eventss.target) 
+} )

@@ -74,12 +74,13 @@ input{
       font-size: large; 
       margin-right: 20px;
 }
+
     #deletebtn:hover{
       opacity: 0.7;
 }
 
 #deletebtn:active{
-      background-color: #75949e;
+      background-color: #b32108;
 }
 
 li{
@@ -100,7 +101,7 @@ li{
         width: 100%;
         display: flex;
         list-style: none;
-        background-color: rgb(174, 22, 22);
+        background-color: rgb(197, 10, 10);
         justify-content: space-between;
         text-align: center;
         font-family: 'Source Serif Pro', serif;
@@ -144,4 +145,45 @@ p{
 }
   .line-through {
     text-decoration: line-through;
+  }
+
+  .top-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    overflow: auto;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.6;
+    
+
+  }
+
+  .all {
+   padding: 20px;
+    margin: 1px;
+     
+    
+  }
+
+  .active {
+    padding: 20px;
+    margin: 1px;
+  }
+
+  .completed {
+    padding: 20px;
+    margin: 1px;
+  }
+
+  .all:hover, .active:hover,.completed:hover {
+    background-color: rgb(244, 244, 244);
+    border-bottom: 2px rgb(8, 0, 240) solid;
+    cursor: pointer;
+    
+  }
+
+  .current {
+    border-bottom: 2px rgb(8, 0, 240) solid;
   }
